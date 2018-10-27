@@ -114,6 +114,6 @@ html {
       height: 2rem; }
       .wrapper .progress-wrapper #days-left-percent #days-left-percent-bar {
         background: #22aa66;
-        width: 2%;
+        width: 0%;
         height: 2rem;
         transition: 0.2s width; }
