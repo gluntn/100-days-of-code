@@ -4,7 +4,7 @@ var days_left = document.getElementById("days-left");
 days_left.innerText = "Day " + howLongLeft() + "/100";
 bar.style.width = howLongLeft() + "%";
 
-fetch('https://github.com/wislos/100-days-of-code/blob/master/docs/projects.json')
+fetch('https://wislos.github.io/100-days-of-code/projects.json')
   .then(res => res.json())
   .then(json => {
     console.log(json);
