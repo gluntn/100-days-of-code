@@ -1,4 +1,3 @@
 [
-  { "name": "Todo-app", "url": "https://github.com/wislos/todo-java", "note": "Simple todo app made with Java", "start": "2018-10-27"},
-  { "name": "Test app", "url": "reddit.com", "note": "this is just a test", "start": "2018-10-27"}
+  { "name": "Todo-app", "url": "https://github.com/wislos/todo-java", "note": "Simple todo app made with Java", "start": "2018-10-27"}
 ]
