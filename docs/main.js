@@ -13,7 +13,7 @@ fetch('https://wislos.github.io/100-days-of-code/projects.json')
       projects.innerHTML +=
       "<li class='project'>" +
       "<a href='"+project.url + "' rel=''>"+project.name + "</a>" +
-      "<p>" + project.note + "<br>" + "Started " + project.start;
+      "<p>" + project.note + "<br>" + "Started " + project.start + "</p></li>";
     });
 });
 
