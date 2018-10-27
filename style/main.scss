@@ -78,6 +78,7 @@ html {
       background: $white;
       width: 100%;
       height: 2rem;
+      overflow: hidden;
       #days-left-percent-bar {
         background: $primary;
         width: 0%;
