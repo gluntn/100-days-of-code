@@ -1,5 +1,6 @@
 var bar = document.getElementById("days-left-percent-bar");
 var days_left = document.getElementById("days-left");
+var projects = document.getElementById("projects");
 
 days_left.innerText = "Day " + howLongLeft() + "/100";
 bar.style.width = howLongLeft() + "%";
@@ -7,7 +8,13 @@ bar.style.width = howLongLeft() + "%";
 fetch('https://wislos.github.io/100-days-of-code/projects.json')
   .then(res => res.json())
   .then(json => {
-    console.log(json);
+    projects.innerHTML = "";
+    json.forEach(project => {
+      projects.innerHTML +=
+      "<li class='project'>" +
+      "<a href='"+project.url + "' rel=''>"+project.name + "</a>" +
+      "<p>" + project.note + "<br>" + "Started " + project.start;
+    });
 });
 
 function howLongLeft() {

@@ -79,27 +79,27 @@ html {
       color: #22aa66; }
   .wrapper .header {
     font-size: 4rem; }
-  .wrapper .projects {
+  .wrapper #projects {
     text-align: center;
     width: 50%;
     margin: 0 auto; }
-    .wrapper .projects .project {
+    .wrapper #projects .project {
       font-weight: 200;
       margin-top: 2rem;
       box-shadow: 3px 3px 1px rgba(51, 51, 51, 0.2);
       background: rgba(51, 51, 51, 0.01);
       padding: 1rem;
       transition: 0.2s background; }
-      .wrapper .projects .project:hover {
+      .wrapper #projects .project:hover {
         transform: translateY(-2px);
         background: rgba(51, 51, 51, 0.04); }
-      .wrapper .projects .project a {
+      .wrapper #projects .project a {
         color: #22aa66;
         text-decoration: none;
         font-weight: 400; }
-        .wrapper .projects .project a:hover {
+        .wrapper #projects .project a:hover {
           text-decoration: underline; }
-      .wrapper .projects .project p {
+      .wrapper #projects .project p {
         padding: 1rem 0 1rem 0; }
   .wrapper .progress-wrapper {
     margin: 1rem auto;
