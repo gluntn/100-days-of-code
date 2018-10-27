@@ -1,0 +1,28 @@
+{
+  "name": "100-days-of-code",
+  "version": "1.0.0",
+  "description": "One hundred days of code, my man!",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sassc style/main.scss docs/main.css",
+    "watch-sass": "nodemon -e scss --watch style/main.scss -x \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wislos/100-days-of-code.git"
+  },
+  "author": "William S Østensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wislos/100-days-of-code/issues"
+  },
+  "homepage": "https://github.com/wislos/100-days-of-code#readme",
+  "dependencies": {
+    "nodemon": "^1.18.5",
+    "reset-css": "^4.0.1"
+  }
+}

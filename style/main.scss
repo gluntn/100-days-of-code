@@ -1,0 +1,89 @@
+@import 'reset';
+@import 'variables';
+
+progress::-webkit-progress-bar { background: $white; }
+progress::-webkit-progress-value { background: $primary; }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Josefin Sans";
+  box-sizing: border-box;
+  background: $white;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  width: 75%;
+
+  .about {
+    width: 50%;
+    margin: 3rem auto;
+    font-weight: 200;
+    strong {
+      font-weight: 400;
+    }
+    .twitter {
+      color: $primary;
+    }
+  }
+
+  .header {
+    font-size: 4rem;
+  }
+
+  .projects {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    .project {
+      font-weight: 200;
+      margin-top: 2rem;
+      box-shadow: 3px 3px 1px rgba($black, 0.2);
+      background: rgba($black, 0.01);
+      padding: 1rem;
+      transition: 0.2s background;
+      &:hover {
+        transform: translateY(-2px);
+        background: rgba($black, 0.04);
+      }
+      a {
+        color: $primary;
+        text-decoration: none;
+        font-weight: 400;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      p {
+        padding: 1rem 0 1rem 0;
+      }
+    }
+  }
+
+  .progress-wrapper {
+    margin: 1rem auto;
+    width: 25%;
+    #days-left, #days-left-percent {
+      display: block;
+      margin: 1rem auto;
+    }
+    #days-left-percent {
+      border: 1px solid $primary;
+      background: $white;
+      width: 100%;
+      height: 2rem;
+      #days-left-percent-bar {
+        background: $primary;
+        width: 2%;
+        height: 2rem;
+        transition: 0.2s width;
+      }
+    }
+  }
+}
