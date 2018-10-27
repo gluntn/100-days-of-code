@@ -87,3 +87,11 @@ html {
     }
   }
 }
+
+@media (max-width: 650px) {
+  .wrapper {
+    width: 100%;
+    .about { width: 75%; }
+    .progress-wrapper { width: 50%;}
+  }
+}
