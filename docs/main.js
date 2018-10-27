@@ -4,11 +4,11 @@ var days_left = document.getElementById("days-left");
 days_left.innerText = "Day " + howLongLeft() + "/100";
 bar.style.width = howLongLeft() + "%";
 
-// fetch('https://bioinfobot.github.io/data/2017-05.json')
-//   .then(res => res.json())
-//   .then(json => {
-//     //json vaiable contains object with data
-//   });
+fetch('https://github.com/wislos/100-days-of-code/blob/master/docs/projects.json')
+  .then(res => res.json())
+  .then(json => {
+    console.log(json);
+});
 
 function howLongLeft() {
   var today = new Date(2018, 9, 27);
