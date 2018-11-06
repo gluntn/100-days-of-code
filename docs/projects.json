@@ -1,5 +1,5 @@
 [
-  { "name": "Todo-app", "url": "https://github.com/wislos/todo-java", "note": "Simple todo app made with Java", "start": "2018-10-27", "end": "2018-11-07", "scrapped": "true"}
+  { "name": "Todo-app", "url": "https://github.com/wislos/todo-java", "note": "Simple todo app made with Java", "start": "2018-10-27", "end": "2018-11-07", "scrapped": "true"},
   { "name": "This page", "url": "https://wislos.github.io/100-days-of-code/", "note": "Currently a simple page with JS, not finished", "start": "2018-10-29", "end": "null", "scrapped": "false"}
 ]
 
